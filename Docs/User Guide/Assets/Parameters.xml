@@ -35,7 +35,7 @@
 	</channel>
 	<!-- +++++++++++++++++++++++++ Tx Channels +++++++++++++++++++++++++ -->
 	<channel>
-		<hardwareChannel>3</hardwareChannel>
+		<hardwareChannel>2</hardwareChannel>
 		<direction>outgoing</direction>
 		<speed>high</speed>
 		<label>

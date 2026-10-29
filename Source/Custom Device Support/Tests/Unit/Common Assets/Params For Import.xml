@@ -26,7 +26,7 @@
 
 	<!-- ++++++++++++++++++++++++++++ Rx Channels ++++++++++++++++++++++++++++ -->
 	<channel>
-		<hardwareChannel>0</hardwareChannel>
+		<hardwareChannel>1</hardwareChannel>
 		<direction>incoming</direction>
 		<speed>low</speed>
 		<label>

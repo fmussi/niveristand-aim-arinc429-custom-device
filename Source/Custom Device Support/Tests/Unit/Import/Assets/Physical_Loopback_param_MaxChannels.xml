@@ -26,7 +26,8 @@
 
 	<!-- ++++++++++++++++++++++++++++ Rx Channels ++++++++++++++++++++++++++++ -->
 	<channel>
-		<hardwareChannel>0</hardwareChannel>
+		<hardwareChannel>32</hardwareChannel>
+		<direction>incoming</direction>
 		<label>
 			<labelDecimal>134</labelDecimal>
 			<createSSMChannel>true</createSSMChannel>
@@ -42,8 +43,9 @@
 			</parameter>
 		</label>
 	</channel>
-		<channel>
+	<channel>
 		<hardwareChannel>2</hardwareChannel>
+		<direction>incoming</direction>
 		<label>
 			<labelDecimal>135</labelDecimal>
 			<createSSMChannel>true</createSSMChannel>
@@ -61,6 +63,7 @@
 	</channel>
 	<channel>
 		<hardwareChannel>4</hardwareChannel>
+		<direction>incoming</direction>
 		<label>
 			<labelDecimal>136</labelDecimal>
 			<createSSMChannel>true</createSSMChannel>
@@ -98,7 +101,8 @@
 	</channel>
 <!-- +++++++++++++++++++++++++ Tx Channels +++++++++++++++++++++++++ -->
 	<channel>
-		<hardwareChannel>17</hardwareChannel>
+		<hardwareChannel>31</hardwareChannel>
+		<direction>outgoing</direction>
 		<label>
 			<labelDecimal>134</labelDecimal>
 			<parameter>
@@ -116,6 +120,7 @@
 	</channel>
 	<channel>
 		<hardwareChannel>19</hardwareChannel>
+		<direction>outgoing</direction>
 		<label>
 			<labelDecimal>135</labelDecimal>
 			<parameter>
@@ -133,6 +138,7 @@
 	</channel>
 	<channel>
 		<hardwareChannel>21</hardwareChannel>
+		<direction>outgoing</direction>
 		<label>
 			<labelDecimal>136</labelDecimal>
 			<parameter>
