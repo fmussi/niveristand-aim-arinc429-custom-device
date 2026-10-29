@@ -17,11 +17,11 @@ stages:
   - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
     parameters:
       lvVersionsToBuild:
-        - version: '2023'
-          bitness: '64bit'
         - version: '2024'
           bitness: '64bit'
         - version: '2025'
+          bitness: '64bit'
+        - version: '2026'
           bitness: '64bit'
 
       buildSteps:
@@ -65,14 +65,14 @@ stages:
           target: 'Linux x64'
           buildSpec: 'Engine Release'
 
-      releaseVersion: '25.0.0'
+      releaseVersion: '26.0.0'
       buildOutputLocation: 'Source\Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\aim_arinc_429'
 
       packages:
         - controlFileName: 'control_custom_device'
           payloadMaps:
-            - installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\AIM'
+            - installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Addons\Custom Devices\AIM'
               payloadLocation: 'AIM'
             - installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
               payloadLocation: 'Errors'
