@@ -1,0 +1,18 @@
+<Configuration>
+  <Target name="My Computer">
+    <EnableDebuggingForAllVIs></EnableDebuggingForAllVIs>
+    <VI name="AIM ARINC 429 Hardware API.lvlib:Get Transfer Identifier from Map.vi:2860001">
+      <Breakpoints>
+        <NodeIndexes>
+          <Node index="7" enabled="1"/>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+        </Generic>
+      </Probes>
+    </VI>
+  </Target>
+</Configuration>
