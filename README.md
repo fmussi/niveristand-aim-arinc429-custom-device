@@ -1,5 +1,12 @@
 # AIM ARINC 429 Custom Device
 
+<!-- labview-ci:dashboard -->
+## LabVIEW CI
+
+[![LabVIEW CI dashboard](https://img.shields.io/badge/LabVIEW%20CI-dashboard-2ea44f)](https://fmussi.github.io/niveristand-aim-arinc429-custom-device/)
+
+LabVIEW CI runs on every pull request. See the [**CI dashboard**](https://fmussi.github.io/niveristand-aim-arinc429-custom-device/) for build status, VI Analyzer results, VI diffs, and mass-compile reports.
+
 The **AIM ARINC 429 Custom Device** allows use of [AIM ARINC 429 PXIe Modules](https://www.ni.com/en-us/support/model.aim-arinc-429.html) in VeriStand. The custom device targets exactly one AIM ARINC 429 PXIe module. To target multiple modules, use multiple instances of this custom device.
 
 The custom device supports the following functionality:
