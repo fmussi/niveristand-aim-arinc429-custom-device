@@ -1,0 +1,1130 @@
+{
+  "schema": 1,
+  "repo": "fmussi/niveristand-aim-arinc429-custom-device",
+  "sha": "7874e5459abe88ef9818123ea71a869b62a65d79",
+  "revisions": [
+    {
+      "sha": "7874e5459abe88ef9818123ea71a869b62a65d79",
+      "short": "7874e54",
+      "message": "Add LabVIEW CI pipeline",
+      "author": "Fabio Mussi",
+      "date": "2026-11-01T16:06:46Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "d9fa10c6228ef7dd43741971de564868f02dab96",
+      "short": "d9fa10c",
+      "message": "added test for max number of channels",
+      "author": "Fabio Mussi",
+      "date": "2026-10-29T20:41:39Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "97bdcc9d05361164be649d32869d78b16d1412f9",
+      "short": "97bdcc9",
+      "message": "added a zero or one based selection for channel indexing",
+      "author": "Fabio Mussi",
+      "date": "2026-10-29T18:03:03Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "44c86d3fa8f3254388cd52edcad9672dcac2f6b7",
+      "short": "44c86d3",
+      "message": "Merge branch 'ni:main' into main",
+      "author": "Fabio Mussi",
+      "date": "2026-10-29T09:27:08Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "0cb2e47e57ba7e73cabc3d7608ff8e96c7a7b4e0",
+      "short": "0cb2e47",
+      "message": "Change install location to ProgramData\\Addons (#140)",
+      "author": "shusingh-NI",
+      "date": "2026-09-29T11:20:15Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "d09a30b025aa4f879235b61b34efa5428befa968",
+      "short": "d09a30b",
+      "message": "Duplicate references exception handled in post build action.VI (#138)",
+      "author": "PrashantPathak-NI",
+      "date": "2026-01-06T07:17:15Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "34e773c1ae7ca2309118913b52bc176b0e779eaf",
+      "short": "34e773c",
+      "message": "Updated README.md file (#137)",
+      "author": "PrashantPathak-NI",
+      "date": "2025-11-11T08:30:09Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "a2ec22e792931dd9aa1b290477981a2f3b1bab85",
+      "short": "a2ec22e",
+      "message": "Update Labview version (#136)",
+      "author": "PrashantPathak-NI",
+      "date": "2025-11-11T06:47:30Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "8b0d9ca71866601da2b1b462bc6cc2eead6b52fa",
+      "short": "8b0d9ca",
+      "message": "Added LV-2026 and removed LV-2023 (#135)",
+      "author": "PrashantPathak-NI",
+      "date": "2025-10-31T13:44:52Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "889ed04ec133037dc0c8a702364545ef6a565510",
+      "short": "889ed04",
+      "message": "chore: initialize empty branch (#133)",
+      "author": "Ashutosh Kumar",
+      "date": "2025-07-02T08:34:06Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "4c2c42d33af8eb0fd9716f2021178c4267a1dc5b",
+      "short": "4c2c42d",
+      "message": "Update YML for 25.3 (#132)",
+      "author": "mraj8370-NI",
+      "date": "2025-07-02T06:02:03Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "a7e4c69cf0a680850cbe21b6fbd1fdd071778aec",
+      "short": "a7e4c69",
+      "message": "Make all channel faultable (#131)",
+      "author": "mraj8370-NI",
+      "date": "2025-07-01T08:30:54Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "c5ea9ddc316ed659ba8e04ebfea51595e3085d9c",
+      "short": "c5ea9dd",
+      "message": "Merge branch 'ni:main' into main",
+      "author": "Fabio Mussi",
+      "date": "2025-04-16T12:24:43Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "79a959a2531b99b01af6612c7d6925b25909a672",
+      "short": "79a959a",
+      "message": "Revert \"fix: enabled some settings\". Just keep add lv2025, remove lv2021, bump version. Disable remove block diagram (#129)",
+      "author": "Ashutosh Kumar",
+      "date": "2024-11-20T10:20:13Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "d5e83c8b9f63d11dbdab50b8fd14254659838054",
+      "short": "d5e83c8",
+      "message": "add lv 25, drop 21, bump version (#128)",
+      "author": "Ashutosh Kumar",
+      "date": "2024-10-28T10:17:59Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "117bd6468abf54a320c6084fbdcaba3c821b83a6",
+      "short": "117bd64",
+      "message": "Update CODEOWNERS file (#127)",
+      "author": "Raagul S",
+      "date": "2024-09-26T05:42:55Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "a3ee6eadd94fd365559afcc858284ec1073dc713",
+      "short": "a3ee6ea",
+      "message": "Update CODEOWNERS (#126)",
+      "author": "Donovan Buck",
+      "date": "2024-08-20T18:09:39Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "24b37762bac7d5fd26a63bf9000528d922b5c81b",
+      "short": "24b3776",
+      "message": "Build for VeriStand 2024 (#124)",
+      "author": "Ryan Zoeller",
+      "date": "2024-01-02T23:01:38Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "60d32a45cd6ef0737af73f3edc6b93cab8fd1fca",
+      "short": "60d32a4",
+      "message": "replace CHM with loose HTML (#123)",
+      "author": "Paul",
+      "date": "2023-12-14T15:48:19Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "f3e14571ae212a05b745edabc00461c7ed043956",
+      "short": "f3e1457",
+      "message": "shorten payloads (#121)",
+      "author": "Paul",
+      "date": "2023-05-02T22:10:11Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "d81039913182c25b2aee6be3a9e2667b2da8d27b",
+      "short": "d810399",
+      "message": "Use offline API for adding items (#119)",
+      "author": "Donovan Buck",
+      "date": "2023-04-12T15:12:57Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "f656e8679de56297dd22cb62a485d0a479adab30",
+      "short": "f656e86",
+      "message": "Remove Jenkinsfile (#120)",
+      "author": "Karl-G1",
+      "date": "2023-04-10T15:40:57Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "d90a30e0c415be8fbb7cf5c284d6423e1d9810fe",
+      "short": "d90a30e",
+      "message": "remove jenkins, add azure pipeline (#118)",
+      "author": "Paul",
+      "date": "2023-03-27T20:12:55Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "4f5e923c922dcfb7a91041a380614f40d29bebcf",
+      "short": "4f5e923",
+      "message": "Uniquify scripting libraries (#117)",
+      "author": "Donovan Buck",
+      "date": "2023-02-20T19:12:16Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "655a199a0beacf511a6313c845566c7827add56b",
+      "short": "655a199",
+      "message": "Use quarterly display version for package versions (#116)",
+      "author": "Karl-G1",
+      "date": "2023-02-15T15:53:42Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "7bdaac6ae7fe336c587fa91b19f7fe34c0f7328a",
+      "short": "7bdaac6",
+      "message": "fix failing tests (#115)",
+      "author": "Paul",
+      "date": "2023-02-13T15:31:01Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "f52ec556c4b18ac05eb9ba1c292cc8be38d21296",
+      "short": "f52ec55",
+      "message": "Add Coupling Mode property to enable internal loopback (#114)",
+      "author": "Karl-G1",
+      "date": "2023-02-03T15:47:23Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "764f152fcee8583995a8dde2652ae9b3c2d66ef0",
+      "short": "764f152",
+      "message": "changed parameter sub-element from choice to sequence to enable dotNET class ser / des",
+      "author": "Fabio Mussi",
+      "date": "2023-01-30T22:49:47Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "800dd273297ad1b42d35ad34302cd4ea957559ef",
+      "short": "800dd27",
+      "message": "added explicit closing tag for xs:emelent to enable xsd class generation",
+      "author": "Fabio Mussi",
+      "date": "2023-01-30T16:37:57Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "746a6fb934d58fdd13c0a46ec4a98ccdf9cde322",
+      "short": "746a6fb",
+      "message": "Use 23.0.0 dependencies (#111)",
+      "author": "Ryan Zoeller",
+      "date": "2022-12-06T17:25:00Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "63e6ddd0126e546f428afe2d69f386bef698a27a",
+      "short": "63e6ddd",
+      "message": "Enable 2023 build (#110)",
+      "author": "Karl-G1",
+      "date": "2022-10-27T16:39:19Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "2704c25e8979c14a5345d2ff6690122af2b43ffb",
+      "short": "2704c25",
+      "message": "Mark all process VIs as reentrant (#106)",
+      "author": "Karl-G1",
+      "date": "2022-09-23T19:47:37Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "6b6215e9b8a41efe142e2886d3504a2c25e6fcf8",
+      "short": "6b6215e",
+      "message": "separate transfer ID get and create to allow get to be non-reentrant (#109)",
+      "author": "Paul",
+      "date": "2022-09-22T20:17:39Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "797a6e21cb39a3bdeff9a16236912fff356e8671",
+      "short": "797a6e2",
+      "message": "Relink testing tools VIs to vi.lib and add unit tests (#107)",
+      "author": "Karl-G1",
+      "date": "2022-09-21T17:10:51Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "986f0c658d397cafb218e5e6a08a37aa85d3ab2d",
+      "short": "986f0c6",
+      "message": "Mark all VIs as source separated (#108)",
+      "author": "Karl-G1",
+      "date": "2022-09-20T19:53:53Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "40c1d56eaadddf297892e26dcb2dc6d4b19c5cc8",
+      "short": "40c1d56",
+      "message": "Add logic to parse SDI bits when decoding received label data, update system test (#105)",
+      "author": "Karl-G1",
+      "date": "2022-08-11T14:56:59Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "4940b735be8fa0f5e3bea0cd31e9dbbdae9769bb",
+      "short": "4940b73",
+      "message": "Quality of life improvements to system tests (#104)",
+      "author": "Karl-G1",
+      "date": "2022-08-05T19:36:08Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "cbabf6ffd1e47e3f4847e21058bfbdd69ca1c189",
+      "short": "cbabf6f",
+      "message": "Fix Rx execution unit order when async (#103)",
+      "author": "Karl-G1",
+      "date": "2022-07-26T14:30:52Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "0f15cba45bbed6239ea7571539ee65501175d638",
+      "short": "0f15cba",
+      "message": "Update scheduled labels only when parameters have changed (#102)",
+      "author": "Donovan Buck",
+      "date": "2022-07-22T17:56:37Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "1e96a2283a8b325314c65bb9b910518f209cf028",
+      "short": "1e96a22",
+      "message": "Use scalars for map access to improve performance (#101)",
+      "author": "Donovan Buck",
+      "date": "2022-07-22T12:47:53Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "834a5bb72ee56a7443eb2c070c670047d6119aff",
+      "short": "834a5bb",
+      "message": "Add Theory of Operations and update User Guide to reference it (#100)",
+      "author": "Karl-G1",
+      "date": "2022-07-18T21:00:58Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "87920075eb1b4e29e4dae2786d42b708556656d6",
+      "short": "8792007",
+      "message": "Disable scheduled Tx when disable channel is set (#98)",
+      "author": "Donovan Buck",
+      "date": "2022-07-12T19:51:55Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "705cd1b1d5655e0c7b575f25853a507505c676b9",
+      "short": "705cd1b",
+      "message": "Implement RTM for optionally adding Timing Channels (#97)",
+      "author": "Karl-G1",
+      "date": "2022-07-01T18:59:08Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "d87d2fa584fb61a508c64fe40e2c598b40d45bbe",
+      "short": "d87d2fa",
+      "message": "Add Timing Channels to report execution unit duration (#95)",
+      "author": "Karl-G1",
+      "date": "2022-06-30T14:54:09Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "ea5b06350f9426bf659be5fd03240793b812c352",
+      "short": "ea5b063",
+      "message": "Fix unit test broken by grouping async execution units (#96)",
+      "author": "Karl-G1",
+      "date": "2022-06-22T15:05:57Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "078999b43ee2bbddefcd20fa7e7cb95c9f531658",
+      "short": "078999b",
+      "message": "Run async Rx and Tx execution units in the same loop (#94)",
+      "author": "Ryan Zoeller",
+      "date": "2022-06-15T19:28:59Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "b460c4e86e41de6e3abcb3483d2f542ea7fe5c92",
+      "short": "b460c4e",
+      "message": "Skip a dynamic dispatch call in the no-error case (#93)",
+      "author": "Ryan Zoeller",
+      "date": "2022-06-15T17:49:42Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "d04658b94c4e72f320a87d142d84d77bc6e3661d",
+      "short": "d04658b",
+      "message": "Add Decimation and Async Rx execution options (#92)",
+      "author": "Karl-G1",
+      "date": "2022-06-14T20:34:09Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "6b55777e027cdd03da69b36d0161eacb9229ab1d",
+      "short": "6b55777",
+      "message": "Apply updated documentation and links to readme (#91)",
+      "author": "Karl-G1",
+      "date": "2022-06-09T18:53:07Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "0ae2d0aea98d9374915690d8f940d88e2cadabd0",
+      "short": "0ae2d0a",
+      "message": "Write and read good values even after error (#89)",
+      "author": "Donovan Buck",
+      "date": "2022-05-04T20:03:12Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "d10b3c6f078adef1f5b52d6cd88bd53763c3aae9",
+      "short": "d10b3c6",
+      "message": "Update logging loopback tests to correctly annotate constants (#88)",
+      "author": "Karl-G1",
+      "date": "2022-05-04T19:31:37Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "cc85a9f69e877a7194ea6fc008525c5db03a3a4d",
+      "short": "cc85a9f",
+      "message": "Log errors during execution (#87)",
+      "author": "Donovan Buck",
+      "date": "2022-05-04T13:54:45Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "eb358aef8bb49abcd1dce2989ee8e64e262b27ab",
+      "short": "eb358ae",
+      "message": "Fix parity during buffer read (#86)",
+      "author": "Donovan Buck",
+      "date": "2022-05-02T21:20:04Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "0587b710503ac561e7a0a21a9d131cc7a730bfc8",
+      "short": "0587b71",
+      "message": "Fix image link in User Guide (#84)",
+      "author": "Karl-G1",
+      "date": "2022-04-29T19:11:02Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "1375b7d997aab88a2682c34b0005dc6534b9b379",
+      "short": "1375b7d",
+      "message": "Add Rx Timestamps and update unit test (#83)",
+      "author": "Paul",
+      "date": "2022-04-28T19:35:18Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "a64592ecea65da4f7023c0aaa851fdb6e66aa3a1",
+      "short": "a64592e",
+      "message": "add Logging section to user guide (#81)",
+      "author": "Paul",
+      "date": "2022-04-27T19:55:12Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "3ad66b1d5c871a86cc78dce4147d9a10a3c90dcd",
+      "short": "3ad66b1",
+      "message": "Add SDI to Logging output (#82)",
+      "author": "Paul",
+      "date": "2022-04-27T15:29:34Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "1bbbabf6773c84bbf6329527d7a4048f39edc330",
+      "short": "1bbbabf",
+      "message": "Buffer updates on parameter import (#80)",
+      "author": "Donovan Buck",
+      "date": "2022-04-26T15:17:21Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "be99309daa0114add84462cd99cb0db783f7729c",
+      "short": "be99309",
+      "message": "Remove scripting status channels (#78)",
+      "author": "Paul",
+      "date": "2022-04-25T14:58:22Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "7a546394faa15761a9ba002226960a976f271565",
+      "short": "7a54639",
+      "message": "Enable SDI filtering for labels (#79)",
+      "author": "Donovan Buck",
+      "date": "2022-04-25T13:25:59Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "7ef84014fd0c27c23666e5d7d1058c4e1cb0707a",
+      "short": "7ef8401",
+      "message": "add enable/disable scripting and system explorer options for custom device (#77)",
+      "author": "Paul",
+      "date": "2022-04-22T18:20:10Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "7177a3377b026ac16197d96cb4777f0844a96f26",
+      "short": "7177a33",
+      "message": "Add Logging Execution Unit and behavior within, and unit/system tests for logging (#76)",
+      "author": "Paul",
+      "date": "2022-04-21T18:17:36Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "4a861ce307a4e539f0833ecf9780c6f308dd0188",
+      "short": "4a861ce",
+      "message": "Fix tests due to string change (#74)",
+      "author": "Donovan Buck",
+      "date": "2022-04-15T18:05:43Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "26d5a8f8d8b8513e8b2d4be3d6cbd8d304a1fa3e",
+      "short": "26d5a8f",
+      "message": "Remove databases and GUID utilities from template (#73)",
+      "author": "Karl-G1",
+      "date": "2022-04-15T14:10:31Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "08b88c1caf0b1ee10571b6cd92d1a96d704328cf",
+      "short": "08b88c1",
+      "message": "Add port speed and transmit rate to Refresh dialog (#72)",
+      "author": "Donovan Buck",
+      "date": "2022-04-15T13:11:11Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "3f0dd1ce61418288f8db028f95570fce77e31711",
+      "short": "3f0dd1c",
+      "message": "Update scripting examples (#67)",
+      "author": "Donovan Buck",
+      "date": "2022-04-14T14:00:56Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "cd076339931032d674ba9e06fdc888f280bbc378",
+      "short": "cd07633",
+      "message": "Replace Ballard references in user guide (#70)",
+      "author": "Donovan Buck",
+      "date": "2022-04-14T13:07:22Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "39fb0430e79c1b5eb198f7e3908925429c67b8e3",
+      "short": "39fb043",
+      "message": "Make channel speed optional in schema (#69)",
+      "author": "Donovan Buck",
+      "date": "2022-04-14T13:06:47Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "6ee11eb094d8dd0936eb220556e7c83bd7699f1f",
+      "short": "6ee11eb",
+      "message": "remove status channel references from Rx data structure (#68)",
+      "author": "Paul",
+      "date": "2022-04-12T16:22:44Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "2a8429f17ec4c4d15ff15d542ead8aeb2e0b23d7",
+      "short": "2a8429f",
+      "message": "Set channel speed in engine (#66)",
+      "author": "Donovan Buck",
+      "date": "2022-04-11T20:18:44Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "85672956ff0474ac40eaeec2cbe4c03256c4b8c2",
+      "short": "8567295",
+      "message": "Build custom device for 2021 64-bit (#65)",
+      "author": "Karl-G1",
+      "date": "2022-04-08T20:12:22Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "47d44d66955bd997cd1e23e50fe2655ebd1e1b4a",
+      "short": "47d44d6",
+      "message": "Unify AIM scripting API (#63)",
+      "author": "Donovan Buck",
+      "date": "2022-04-08T18:56:30Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "f219a747953758cda82f32b949230d86c9967b7e",
+      "short": "f219a74",
+      "message": "add AIM Loopback system tests and remove duplicate Ballard system tests (#64)",
+      "author": "Paul",
+      "date": "2022-04-08T15:05:07Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "80dae3ef895fc0916cc1f569394b12cba0ea2d58",
+      "short": "80dae3e",
+      "message": "System Explorer updates for AIM (#62)",
+      "author": "Donovan Buck",
+      "date": "2022-04-08T13:30:45Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "05d7b390533ec35fb60e0b2994cf80acc55606d5",
+      "short": "05d7b39",
+      "message": "Add Acyclic Tx Writes to Hardware (#61)",
+      "author": "Paul",
+      "date": "2022-04-05T18:55:04Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "7a6689ae49777af4b4e3a79d95a9f5b76202765a",
+      "short": "7a6689a",
+      "message": "Import channel speed from parameters XML (#60)",
+      "author": "Donovan Buck",
+      "date": "2022-04-04T19:58:08Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "0d31c234e7ad41fb443c01e524d32060014aeea7",
+      "short": "0d31c23",
+      "message": "Update parameters schema with channel speed and scheduled rate (#58)",
+      "author": "Donovan Buck",
+      "date": "2022-04-01T17:07:26Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "fa8cc07291eea2ad6a8bafeaa173724a152f1091",
+      "short": "fa8cc07",
+      "message": "Add Scheduled Tx (#59)",
+      "author": "Paul",
+      "date": "2022-04-01T15:17:21Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "5784c449594551c6d3ea1a40fc3499977cffa185",
+      "short": "5784c44",
+      "message": "move default value into parameter definition (#57)",
+      "author": "Paul",
+      "date": "2022-03-30T03:37:24Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "36033850999e0395f05a18f014f20a47cc52c6b2",
+      "short": "3603385",
+      "message": "Create Tx Execution units (#55)",
+      "author": "Paul",
+      "date": "2022-03-24T14:58:42Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "ccf2eb23ee92c3cb9fafe4c0a4475b665f20033b",
+      "short": "ccf2eb2",
+      "message": "Update error codes (#56)",
+      "author": "Donovan Buck",
+      "date": "2022-03-24T12:41:29Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "b198f8b35e7d556bb721d10dd87843f5bf1987db",
+      "short": "b198f8b",
+      "message": "Find the correct board for desired PXI slot (#53)",
+      "author": "Donovan Buck",
+      "date": "2022-03-23T15:04:37Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "ec058a21b7ba44f4f0aa1e6b74f058d4f2222926",
+      "short": "ec058a2",
+      "message": "Configure Rx and Read From Hardware (#54)",
+      "author": "Paul",
+      "date": "2022-03-22T18:23:11Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "822eb5a994af9cfcf7e3f87ef0335905fcd87ad6",
+      "short": "822eb5a",
+      "message": "Create scripting entry points for label transmit rate (#52)",
+      "author": "Donovan Buck",
+      "date": "2022-03-21T18:10:21Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "aa60b4173aa62f418214793d04a1cffc1d2e4af0",
+      "short": "aa60b41",
+      "message": "add create execution units and construction of rx execution units (#51)",
+      "author": "Paul",
+      "date": "2022-03-18T14:59:11Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "0b2e8c005b50e05734823bfd9d46ba23566931f8",
+      "short": "0b2e8c0",
+      "message": "Initialize, start, and finalize execution units (#49)",
+      "author": "Donovan Buck",
+      "date": "2022-03-15T20:21:08Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "24e6111971dadcc3ccc5399bdad21f5a3994dbe9",
+      "short": "24e6111",
+      "message": "Create manager for channels in multiple execution units (#48)",
+      "author": "Donovan Buck",
+      "date": "2022-03-14T15:43:48Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "156c48d0ee88cee8b829783d64fe0279ccfb7069",
+      "short": "156c48d",
+      "message": "Implement Library and Board Initialize and Shutdown (#47)",
+      "author": "Donovan Buck",
+      "date": "2022-03-10T15:18:49Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "cbcd71c7c2a6b4f411408db262673b014f48299e",
+      "short": "cbcd71c",
+      "message": "Add linux rt support (#46)",
+      "author": "Donovan Buck",
+      "date": "2022-03-09T17:49:10Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "92cf0034c8d0aef25db565f91f20a5718afbae9c",
+      "short": "92cf003",
+      "message": "Start engine library from clean template (#45)",
+      "author": "Donovan Buck",
+      "date": "2022-03-09T15:08:01Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "4441df96afe235d5219fbb51809fe51b3c1b5531",
+      "short": "4441df9",
+      "message": "Combine scripting APIs into one library (#44)",
+      "author": "Donovan Buck",
+      "date": "2022-03-08T21:14:29Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "2368561b93aa0b29768b37c0c3f8cf50c5600901",
+      "short": "2368561",
+      "message": "Fix multiple Rx channels not reading (#43)",
+      "author": "Donovan Buck",
+      "date": "2022-02-16T20:52:46Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "e74ee0c3093946de28111d85a5910316284071ea",
+      "short": "e74ee0c",
+      "message": "Update CODEOWNERS (#41)",
+      "author": "Donovan Buck",
+      "date": "2022-02-01T17:37:27Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "867251267c974ce0604b08ab7d4010eea165a131",
+      "short": "8672512",
+      "message": "remove hardcoded constant (number of channels = 16) (#40)",
+      "author": "Doug Bendele",
+      "date": "2022-01-10T15:26:41Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "cace70f03e08ab2467e1d71f5db5153c409021df",
+      "short": "cace70f",
+      "message": "Tx execution unit for scheduled (rate based) labels  (#37)",
+      "author": "Doug Bendele",
+      "date": "2022-01-10T15:25:31Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "0de259a4031075625d8f05d90b4e034f163a3d47",
+      "short": "0de259a",
+      "message": "Move channel operations to Shared Resources (#35)",
+      "author": "Doug Bendele",
+      "date": "2022-01-07T14:36:10Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "dceb76997698a7ed517e9880c36a1d32e4312690",
+      "short": "dceb769",
+      "message": "add radix to word format string for hex and oct (#34)",
+      "author": "Doug Bendele",
+      "date": "2022-01-05T20:00:20Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "0e3ab812dcc04f1ab321bea1574e9eecd938ef4b",
+      "short": "0e3ab81",
+      "message": "Add scripting entry points for port speed, port properties, active channels\u2026 (#36)",
+      "author": "Doug Bendele",
+      "date": "2022-01-05T19:58:09Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "05c27a96de38671d0cc1e5d94d6ba8b0d4aa3f6c",
+      "short": "05c27a9",
+      "message": "Implement Rx execution unit (#28)",
+      "author": "Doug Bendele",
+      "date": "2021-12-17T17:15:55Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "a5ddef5c4a4b60a4aa49a702d4d206943a1e5416",
+      "short": "a5ddef5",
+      "message": "remove timestamp test (#26)",
+      "author": "Doug Bendele",
+      "date": "2021-12-16T16:26:51Z",
+      "project": true,
+      "dep_only": false
+    }
+  ],
+  "config": {
+    "use": "",
+    "actions": {},
+    "vipc": [],
+    "dragon": [],
+    "hasVipcList": false,
+    "hasDragonList": false
+  },
+  "vipc": [
+    {
+      "path": ".github/labview/vipm/ci-tooling.vipc",
+      "role": "core",
+      "capability": "",
+      "tooling": true,
+      "configured": true,
+      "monitored": true,
+      "monitorOn": [
+        "windows",
+        "linux"
+      ],
+      "locked": true,
+      "packages": [
+        "astemes_lib_lunit-2.0.13.6",
+        "astemes_lib_lunit_cli-1.6.1.23",
+        "astemes_lib_lunit_coverage_analysis_add_on-1.0.0.2",
+        "astemes_lib_lunit_global_fixture_add_on-1.0.5.4",
+        "astemes_lib_lunit_parameterized_add_on-1.1.10.8",
+        "astemes_lib_lunit_test_inheritance_add_on-1.0.5.4",
+        "dataflow_g_lib_g_image-0.5.0.1",
+        "felipefoz_lib_lv_rainbow_terminal-1.1.1.5",
+        "jki_lib_caraya-1.4.4.148",
+        "jki_lib_state_machine-2024.0.3.23",
+        "jki_rsc_toolkits_palette-1.1-1",
+        "labview_open_source_lib_epoch_datetime-1.3.0.8",
+        "labview_open_source_project_lib_labview_open_source_palette-1.0.2.7",
+        "labview_open_source_project_lib_openuri-1.4.0.13",
+        "lvos_lib_caraya_cli_extension-2.0.0.7",
+        "ni_lib_junit_results_api-1.0.1.6",
+        "ni_lib_simple_xml-1.0.0.4",
+        "ni_lib_utf_junit_report-1.0.1.43",
+        "oglib_array-6.0.1.20",
+        "oglib_error-6.0.0.26",
+        "oglib_file-6.0.2.28",
+        "oglib_lvdata-6.0.0.45",
+        "oglib_string-6.0.2.35",
+        "pnr_lib_caraya_junit_for_azure_pipelines-1.2.0.11",
+        "pnr_lib_junit_xml-1.0.0.4",
+        "sas_workshops_lib_lunit_for_g_cli-1.2.1.85",
+        "wiresmith_technology_lib_g_cli-3.0.1.98"
+      ],
+      "error": ""
+    }
+  ],
+  "nipm": [
+    {
+      "name": "LabVIEW",
+      "source": "NI Package Manager",
+      "labview": true,
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "details": "LabVIEW runtime and development packages from the NI feeds."
+    },
+    {
+      "name": "VI Analyzer support",
+      "source": "NI Package Manager",
+      "packages": {
+        "windows": [
+          "ni-viawin-labview-support"
+        ],
+        "linux": [
+          "ni-vialin-labview-support"
+        ]
+      },
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "details": "NI VI Analyzer support package used by the analyzer runners."
+    },
+    {
+      "name": "NI Unit Test Framework",
+      "source": "NI Package Manager",
+      "packages": {
+        "windows": [
+          "ni-utf-labview-support"
+        ]
+      },
+      "platforms": [
+        "windows"
+      ],
+      "details": "NI UTF support package used by the Windows unit-test runner."
+    },
+    {
+      "name": "JKI Dragon",
+      "source": "NI Package Manager",
+      "packages": {
+        "windows": [
+          "jki-dragon"
+        ]
+      },
+      "platforms": [
+        "windows"
+      ],
+      "details": "JKI Dragon dependency-management tooling installed from the LabVIEW 2026 NI Package Manager feed."
+    },
+    {
+      "name": "VI Package Manager",
+      "source": "NI Package Manager",
+      "packages": {
+        "windows": [
+          "ni-vipm"
+        ]
+      },
+      "platforms": [
+        "windows"
+      ],
+      "details": "NI-published Windows VIPM package that enables VIPC application during worker builds. Linux installs VIPM from the native Debian package during its worker build."
+    }
+  ],
+  "dragon": {
+    "available": false,
+    "column": "windows",
+    "ready": false,
+    "health": "",
+    "manifest_version": "",
+    "files": [],
+    "install_set": [],
+    "conflicts": []
+  },
+  "system": [
+    {
+      "name": "VI Browser 2.0 toimages runner",
+      "source": "Repository Go code",
+      "path": ".github/labview/toimages/main.go",
+      "details": "Batch runner compiled from repo Go source; Linux uses the toimages GHCR image and Windows builds runner.exe in the workflow.",
+      "platforms": {
+        "windows": {
+          "present": true,
+          "label": "workflow-built"
+        },
+        "linux": {
+          "present": false,
+          "label": ""
+        }
+      }
+    },
+    {
+      "name": "lvctl render engine",
+      "source": "Repository Go code + embedded VIs",
+      "path": ".github/labview/toimages/_ni/labview/lvctl",
+      "details": "Renderer used by VI Browser 2.0 to drive LabVIEW and emit position-aware frame JSON.",
+      "platforms": {
+        "windows": {
+          "present": true,
+          "label": "workflow-built"
+        },
+        "linux": {
+          "present": false,
+          "label": ""
+        }
+      }
+    }
+  ],
+  "columns": [
+    {
+      "key": "windows",
+      "label": "Windows",
+      "platform": "windows",
+      "defaultTag": "latest",
+      "tag": "latest",
+      "ready": true,
+      "packages": [
+        "astemes_lib_lunit-2.0.13.6",
+        "astemes_lib_lunit_cli-1.6.1.23",
+        "astemes_lib_lunit_coverage_analysis_add_on-1.0.0.2",
+        "astemes_lib_lunit_global_fixture_add_on-1.0.5.4",
+        "astemes_lib_lunit_parameterized_add_on-1.1.10.8",
+        "astemes_lib_lunit_test_inheritance_add_on-1.0.5.4",
+        "dataflow_g_lib_g_image-0.5.0.1",
+        "felipefoz_lib_lv_rainbow_terminal-1.1.1.5",
+        "jki_lib_caraya-1.4.4.148",
+        "jki_lib_state_machine-2024.0.3.23",
+        "jki_rsc_toolkits_palette-1.1-1",
+        "labview_open_source_lib_epoch_datetime-1.3.0.8",
+        "labview_open_source_project_lib_labview_open_source_palette-1.0.2.7",
+        "labview_open_source_project_lib_openuri-1.4.0.13",
+        "lvos_lib_caraya_cli_extension-2.0.0.7",
+        "ni_lib_junit_results_api-1.0.1.6",
+        "ni_lib_simple_xml-1.0.0.4",
+        "ni_lib_utf_junit_report-1.0.1.43",
+        "oglib_array-6.0.1.20",
+        "oglib_error-6.0.0.26",
+        "oglib_file-6.0.2.28",
+        "oglib_lvdata-6.0.0.45",
+        "oglib_string-6.0.2.35",
+        "pnr_lib_caraya_junit_for_azure_pipelines-1.2.0.11",
+        "pnr_lib_junit_xml-1.0.0.4",
+        "sas_workshops_lib_lunit_for_g_cli-1.2.1.85",
+        "wiresmith_technology_lib_g_cli-3.0.1.98"
+      ],
+      "failed_packages": [],
+      "nipkg_ready": true,
+      "nipkg_packages": [],
+      "labview_version": "2026",
+      "version": "win-982773c5fc86"
+    },
+    {
+      "key": "linux",
+      "label": "Linux",
+      "platform": "linux",
+      "defaultTag": "latest",
+      "tag": "latest",
+      "ready": false,
+      "packages": [],
+      "failed_packages": [],
+      "nipkg_ready": false,
+      "nipkg_packages": [],
+      "labview_version": "",
+      "version": "latest"
+    }
+  ]
+}
